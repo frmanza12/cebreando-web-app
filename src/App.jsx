@@ -48,9 +48,9 @@ theme = createTheme(theme, {
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route >
-      <Route path="brain" element={<Brain />} />
-      <Route path="/" element={<Navigate to="brain" />} />
-      <Route path="*" element={<Navigate to="brain" />} />
+      <Route path="/" element={<Brain />} />
+      <Route path="/brain" element={<Brain />} />
+      <Route path="*" element={<Navigate to="/" />} />
 
     </Route>
   )

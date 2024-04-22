@@ -4,13 +4,13 @@ const Brain  = lazy(() => import('./components/Brain'));
 
 export const ROUTE_PATHS = {
     HOME: '/',
-    BRAIN: '/brain',
+    NOT_FOUND: '*',
 };
 
 
 const routes = [
-    { path: ROUTE_PATHS.HOME, element: <Navigate to={ROUTE_PATHS.BRAIN} /> },
-    { path: ROUTE_PATHS.BRAIN, element: <Brain /> },
+    { path: ROUTE_PATHS.HOME, element: <Brain /> },
+    { path: ROUTE_PATHS.NOT_FOUND, element:<Navigate to={ROUTE_PATHS.HOME} />},
 ];
 
 export default routes;
