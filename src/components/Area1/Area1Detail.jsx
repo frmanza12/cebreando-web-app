@@ -17,7 +17,7 @@ export default function Area1Detail() {
 
       <Carousel.Item>
         <Card className='card-area' 
-        sx={{borderLeft: '5px solid #99b5df', marginBottom: '30px'}}>
+        sx={{borderLeft: '5px solid #99b5df', marginBottom: '30px', paddingBottom:'10px'}}>
           <img
             className='img-brain'
             src={prefrontal}

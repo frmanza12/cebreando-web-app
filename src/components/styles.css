@@ -6,8 +6,8 @@
 }
 
 .card-area{
-    width: 345px;
-    height: 586px;
+    width: 330px;
+    height: auto;
     align-items: center;
     justify-content: flex-start;
     display: flex;
@@ -48,7 +48,7 @@
     align-items: center;
     flex-direction: column;
     padding-bottom: 20px;
-     
+    padding: 20px;
     
 }
 .carousel-area4{
