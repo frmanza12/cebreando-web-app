@@ -1,0 +1,65 @@
+.grid{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-area{
+    width: 345px;
+    height: 586px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.card-area-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-left: 20px;
+}
+.card-area-actions{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: auto;
+}
+
+.img-brain{
+    width: 250px;
+    height: 200px;
+    display: flex;
+}
+.img-brain-carousel{
+    width: 200px;
+    height: 160px;
+    display: flex;
+}
+.carousel-area1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+     
+    
+}
+.carousel-area4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250;
+    height: 200;
+}
+
+.main-brain{
+    filter: drop-shadow(4px 6px 12px rgba(0, 0, 0,0.5));
+}
