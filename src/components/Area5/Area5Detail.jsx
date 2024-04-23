@@ -18,22 +18,22 @@ export default function Area5Detail() {
         <Typography gutterBottom variant="h5" component="div">
           Cerebelo
         </Typography>
-        <Typography color="text.secondary" fontWeight={'bold'}>
+        <Typography marginBottom={'5px'} color="text.secondary" fontWeight={'bold'}>
           “Árbol de la vida”
         </Typography>
         <ul>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2" color="text.secondary"  >
               Coordinación de movimientos
             </Typography>
           </li>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2" color="text.secondary"  >
               Equilibrio postural.
             </Typography>
           </li>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2"  color="text.secondary"  >
               Desarrollo cognitivo: FFEE y regulación emocional.
             </Typography>
           </li>

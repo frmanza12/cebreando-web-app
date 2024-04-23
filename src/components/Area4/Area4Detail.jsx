@@ -30,27 +30,27 @@ export default function Area4Detail() {
         className='card-area-content'
       >
 
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography  gutterBottom variant="h5" component="div">
           Temporal
         </Typography>
         <ul>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2" color="text.secondary"  >
               Lenguaje – Audición: <strong> Comprensión.</strong>
             </Typography>
           </li>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2" color="text.secondary"  >
               <strong> Sistema límbico:</strong>
             </Typography>
             <ul>
               <li>
-                <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
-                  Hipocampo “Caballito de Mar”. Memoria.
+                <Typography variant="body2" color="text.secondary"  >
+                  Hipocampo <span style={{fontStyle:'italic'}}>“Caballito de Mar”</span>. Memoria.
                 </Typography>
               </li>
               <li>
-                <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+                <Typography variant="body2" color="text.secondary"  >
                   Amígdala. Desarrollo emocional (secuestro amigdalino, secuestro emocional).
                 </Typography>
               </li>
@@ -58,12 +58,12 @@ export default function Area4Detail() {
             </ul>
           </li>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2"  color="text.secondary"  >
               Conductas complejas de aprendizaje y motivación.
             </Typography>
           </li>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2"  color="text.secondary"  >
               Respuesta emocional: miedo – agresividad.
             </Typography>
           </li>
