@@ -17,32 +17,32 @@ export default function Area2Detail() {
         <Typography gutterBottom variant="h5" component="div">
           Parietal
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography marginBottom={'5px'}v fontStyle={'italic'} variant="body2" color="text.secondary">
           ¿Nunca había oído esta palabra, a qué se refiere? Es un área cerebral situada seguida del lóbulo frontal y entre sus acciones están:
         </Typography>
         <ul>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2" color="text.secondary"  >
               Praxias
             </Typography>
           </li>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2" color="text.secondary"  >
               Procesamiento sensorial. Orientación espacial
             </Typography>
           </li>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2" color="text.secondary"  >
               Procesamiento información simbólica: Uso del lenguaje
             </Typography>
           </li>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2" color="text.secondary"  >
               Procesamiento información numérica: Operaciones matemáticas. Pensamiento abstracto
             </Typography>
           </li>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2" color="text.secondary"  >
               “Síndrome de Gerstmann”
             </Typography>
           </li>

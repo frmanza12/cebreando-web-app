@@ -18,23 +18,23 @@ export default function Area3Detail() {
         <Typography gutterBottom variant="h5" component="div">
           Occipital
         </Typography>
-        <Typography color="text.secondary" fontWeight={'bold'}>
+        <Typography marginBottom={'5px'} color="text.secondary" fontWeight={'bold'}>
           ¿Occipital? ¡Ah! ¡Lo de la vista!
 
         </Typography>
         <ul>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2" color="text.secondary"  >
               Funciones visuales
             </Typography>
           </li>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2" color="text.secondary"  >
               Gnosias
             </Typography>
           </li>
           <li>
-            <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography variant="body2" color="text.secondary"  >
               Habilidades visuoespaciales
             </Typography>
           </li>

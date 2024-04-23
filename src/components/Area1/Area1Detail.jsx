@@ -7,24 +7,27 @@ import Carousel from 'react-bootstrap/Carousel';
 import prefrontal from '../../assets/PrefrontalCortex.png'
 import cingulate from '../../assets/CingulateGyrus.png'
 export default function Area1Detail() {
- 
+
   return (
     <Carousel className='carousel-area1'
-    interval={null}
-    controls={false}
-    
+      interval={null}
+      controls={false}
+
     >
 
       <Carousel.Item>
-        <Card className='card-area' 
-        sx={{borderLeft: '5px solid #99b5df', marginBottom: '30px', paddingBottom:'10px'}}>
+        <Card className='card-area'
+          sx={{ 
+            borderLeft: '5px solid #99b5df', 
+            marginBottom: '20px',
+            paddingBottom: '10px' }}>
           <img
             className='img-brain'
             src={prefrontal}
             alt="Prefrontal Cortex"
           />
           <CardContent
-          className='card-area-content'
+            className='card-area-content'
           >
 
             <Typography gutterBottom variant="h5" component="div">
@@ -34,61 +37,62 @@ export default function Area1Detail() {
               ¿Corteza qué? ¿Lóbulo? ¿Dorsolateral – Orbitofrontal?
               ¿Qué es esto?
             </Typography>
-            <Typography marginTop={'5px'} variant="body2" fontStyle={'italic'} color="text.secondary"  >
+            <Typography marginBottom={'5px'} marginTop={'5px'} variant="body2" fontStyle={'italic'} color="text.secondary"  >
               Estos términos hacen referencia a una estructura cerebral situada en la zona anterior del cerebro y tiene como funciones principales:
             </Typography>
+
             <ul>
               <li>
-                <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+                <Typography variant="body2" color="text.secondary"  >
                   Lenguaje: <strong>Producción</strong>
                 </Typography>
               </li>
               <li>
-                <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+                <Typography variant="body2" color="text.secondary"  >
                   Respuesta atencional
                 </Typography>
               </li>
               <li>
-                <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+                <Typography variant="body2" color="text.secondary"  >
                   Planificación.<strong> Dorsolateral</strong>
 
                 </Typography>
               </li>
               <li>
-                <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+                <Typography variant="body2" color="text.secondary"  >
                   Procesamiento. <strong>Dorsolateral</strong>
 
                 </Typography>
               </li>
               <li>
-                <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+                <Typography variant="body2" color="text.secondary"  >
                   Flexibilidad cognitiva.<strong> Orbitofrontal</strong>
                 </Typography>
               </li>
               <li>
-                <Typography variant="body2" fontStyle={'italic'} color="text.secondary"  >
+                <Typography variant="body2" color="text.secondary"  >
                   Regulación afectiva: control de impulsos – inhibición de respuestas. <strong>Orbitofrontal</strong>
                 </Typography>
               </li>
             </ul>
           </CardContent>
           <CardActions
-            className='card-area-actions' 
+            className='card-area-actions'
           >
-            <Button style={{width:'80%'}} color="primaryBlue" variant="contained" size="small">Actividad</Button>
+            <Button style={{ width: '80%' }} color="primaryBlue" variant="contained" size="small">Actividad</Button>
 
           </CardActions>
         </Card>
       </Carousel.Item>
       <Carousel.Item>
-        <Card className='card-area' sx={{borderLeft: '5px solid #99b5df', marginBottom: '30px'}}>
+        <Card className='card-area' sx={{ borderLeft: '5px solid #99b5df', marginBottom: '30px' }}>
           <img
-           className='img-brain'
+            className='img-brain'
             src={cingulate}
             alt="cingulate"
           />
           <CardContent
-          className='card-area-content'
+            className='card-area-content'
           >
 
             <Typography gutterBottom variant="h5" component="div">
@@ -120,7 +124,7 @@ export default function Area1Detail() {
             </ul>
           </CardContent>
           <CardActions className='card-area-actions' >
-            <Button style={{width:'80%'}} color="primaryBlue" variant="contained" size="small">Actividad</Button>
+            <Button style={{ width: '80%' }} color="primaryBlue" variant="contained" size="small">Actividad</Button>
 
           </CardActions>
         </Card>
