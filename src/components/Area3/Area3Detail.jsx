@@ -16,7 +16,7 @@ export default function Area3Detail() {
       <CardContent className='card-area-content'  >
 
         <Typography gutterBottom variant="h5" component="div">
-          Occipital
+          OCCIPITAL
         </Typography>
         <Typography marginBottom={'5px'} color="text.secondary" fontWeight={'bold'}>
           ¿Occipital? ¡Ah! ¡Lo de la vista!

@@ -1,9 +1,11 @@
 #root {
-  
-  margin:  0 auto auto auto;
+  margin: 0 auto auto auto;
   width: 150%;
   height: 100%;
   background-color: #edf2f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-bottom: 40px;
 }
 

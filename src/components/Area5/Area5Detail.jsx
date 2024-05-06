@@ -3,11 +3,11 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import cerebelum from '../../assets/Cerebelum.png'
+import cerebelum from '../../assets/Cerebellum.png'
 
 export default function Area5Detail() {
   return (
-    <Card sx={{borderLeft: '5px solid #4a4a4a'}} className='card-area'>
+    <Card sx={{borderLeft: '5px solid #ad5151'}} className='card-area'>
       <img
         className='img-brain'
         src={cerebelum}
@@ -16,7 +16,7 @@ export default function Area5Detail() {
       <CardContent className='card-area-content'>
 
         <Typography gutterBottom variant="h5" component="div">
-          Cerebelo
+          CEREBELO
         </Typography>
         <Typography marginBottom={'5px'} color="text.secondary" fontWeight={'bold'}>
           “Árbol de la vida”
@@ -40,7 +40,7 @@ export default function Area5Detail() {
         </ul>
       </CardContent>
       <CardActions  className='card-area-actions' >
-        <Button  style={{width:'80%'}} color='black'  variant="contained" size="small">Actividad</Button>
+        <Button  style={{width:'80%'}} color='red'  variant="contained" size="small">Actividad</Button>
 
       </CardActions>
     </Card>
