@@ -42,6 +42,12 @@ theme = createTheme(theme, {
       },
       name: 'black',
     }),
+    red: theme.palette.augmentColor({
+      color: {
+        main: '#ad5151',
+      },
+      name: 'red',
+    }),
   },
 });
 

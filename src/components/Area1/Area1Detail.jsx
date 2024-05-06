@@ -12,7 +12,6 @@ export default function Area1Detail() {
     <Carousel className='carousel-area1'
       interval={null}
       controls={false}
-
     >
 
       <Carousel.Item>
@@ -31,7 +30,7 @@ export default function Area1Detail() {
           >
 
             <Typography gutterBottom variant="h5" component="div">
-              Corteza Prefrontal
+              CORTEZA PREFRONTAL
             </Typography>
             <Typography color="text.secondary" fontWeight={'bold'}>
               ¿Corteza qué? ¿Lóbulo? ¿Dorsolateral – Orbitofrontal?
