@@ -9,7 +9,7 @@ import temporal from '../../assets/TemporalLobe.png'
 import limbicSystem from '../../assets/SistemLimbic.png'
 export default function Area4Detail() {
   return (
-    <Carousel className='carousel-area1' controls={false}  >
+    <Carousel className='carousel-area1' interval={null} controls={false}  >
       <Carousel.Item>
         <Card sx={{
           borderLeft: '5px solid #9cd27d', marginBottom: '20px',
