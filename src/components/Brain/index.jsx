@@ -1,9 +1,11 @@
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Grid, Typography } from '@mui/material';
+import { useLocation } from 'react-router-dom';
 import brain from '../../assets/completeBrain.png'
 import Grow from '@mui/material/Grow';
 import Detail from '../Detail';
+import Footer from '../Footer';
 import '../styles.css'
 
 import { BRAIN_PARTS } from '../../constants/brainsParts';
@@ -11,6 +13,8 @@ import { BRAIN_PARTS } from '../../constants/brainsParts';
 const Brain = () => {
     const [part, setPart] = useState();
     const [show, setShow] = useState(false);
+    const { state } = useLocation();
+    const id = state && state.id;
 
     const handleClick = (event) => {
         setShow(false);
@@ -25,6 +29,14 @@ const Brain = () => {
         }, 400);
 
     };
+
+    useEffect(() => {
+        if (id !== undefined) {
+            setPart(id);
+            setShow(true);
+        }
+    }
+        , [id]);
 
     const getColor = () => {
         switch (part) {
@@ -42,7 +54,6 @@ const Brain = () => {
                 return '#000000';
         }
     }
-
 
     return (
         <Grid container direction={'column'}>
@@ -76,7 +87,7 @@ const Brain = () => {
 
                 {/* Conditionally applies the timeout prop to change the entry speed. */}
                 {
-                    part !== undefined && (
+                     part != null  && (
                         <Grow in={show}>
                             <Grid item className='grid'>
                                 <Detail Component={BRAIN_PARTS[part]} />
@@ -85,6 +96,7 @@ const Brain = () => {
                     )
                 }
             </Grid>
+            <Footer />
         </Grid>
 
     );

@@ -7,9 +7,12 @@ import Carousel from 'react-bootstrap/Carousel';
 import amigdala from '../../assets/amigdala.png'
 import temporal from '../../assets/TemporalLobe.png'
 import limbicSystem from '../../assets/SistemLimbic.png'
+import { useNavigate } from "react-router-dom";
+
 export default function Area4Detail() {
+  const navigate = useNavigate();
   return (
-    <Carousel className='carousel-area1' controls={false}  >
+    <Carousel className='carousel-area1' interval={null} controls={false}  >
       <Carousel.Item>
         <Card sx={{
           borderLeft: '5px solid #9cd27d', marginBottom: '20px',
@@ -67,10 +70,6 @@ export default function Area4Detail() {
 
             </ul>
           </CardContent>
-          <CardActions className='card-area-actions' >
-            <Button style={{ width: '80%' }} variant="contained" color="green" size="small">Actividad</Button>
-
-          </CardActions>
         </Card>
       </Carousel.Item>
       <Carousel.Item>
@@ -86,18 +85,12 @@ export default function Area4Detail() {
           <CardContent
             className='card-area-content'
           >
-
-            
             <Typography marginBottom={'5px'} color="text.secondary">
               La <strong>amígdala</strong> referida a conductas complejas de aprendizaje y motivación.
               Respuesta emocional:  miedo – agresividad.
 
             </Typography>
           </CardContent>
-          <CardActions className='card-area-actions' >
-            <Button style={{ width: '80%' }} variant="contained" color="green" size="small">Actividad</Button>
-
-          </CardActions>
         </Card>
       </Carousel.Item>
       <Carousel.Item>
@@ -126,7 +119,9 @@ export default function Area4Detail() {
             </Typography>
           </CardContent>
           <CardActions className='card-area-actions' >
-            <Button style={{ width: '80%' }} variant="contained" color="green" size="small">Actividad</Button>
+            <Button
+              onClick={() => navigate('/activity/hipocampo')}
+              style={{ width: '80%' }} variant="contained" color="green" size="small">Actividad</Button>
 
           </CardActions>
         </Card>
