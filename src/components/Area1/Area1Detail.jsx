@@ -6,8 +6,10 @@ import Typography from '@mui/material/Typography';
 import Carousel from 'react-bootstrap/Carousel';
 import prefrontal from '../../assets/PrefrontalCortex.png'
 import cingulate from '../../assets/CingulateGyrus.png'
-export default function Area1Detail() {
+import { useNavigate } from "react-router-dom";
 
+export default function Area1Detail() {
+  const navigate = useNavigate();
   return (
     <Carousel className='carousel-area1'
       interval={null}
@@ -78,7 +80,10 @@ export default function Area1Detail() {
           <CardActions
             className='card-area-actions'
           >
-            <Button style={{ width: '80%' }} color="primaryBlue" variant="contained" size="small">Actividad</Button>
+            <Button 
+            onClick={() => navigate('/activity/corteza_prefrontal')}
+            style={{ width: '80%' }} 
+            color="primaryBlue" variant="contained" size="small">Actividad</Button>
 
           </CardActions>
         </Card>
@@ -123,7 +128,9 @@ export default function Area1Detail() {
             </ul>
           </CardContent>
           <CardActions className='card-area-actions' >
-            <Button style={{ width: '80%' }} color="primaryBlue" variant="contained" size="small">Actividad</Button>
+            <Button 
+            onClick={() => navigate('/activity/cortex_cingulado_anterior')}
+            style={{ width: '80%' }} color="primaryBlue" variant="contained" size="small">Actividad</Button>
 
           </CardActions>
         </Card>

@@ -3,6 +3,7 @@ import { CssBaseline, Grid, StyledEngineProvider } from '@mui/material';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider, Navigate } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Brain from './components/Brain';
+import Activity from './components/Activity';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 let theme = createTheme({
@@ -56,6 +57,7 @@ const router = createBrowserRouter(
     <Route >
       <Route path="/" element={<Brain />} />
       <Route path="/brain" element={<Brain />} />
+      <Route path="/activity/:id" element={<Activity />} />
       <Route path="*" element={<Navigate to="/" />} />
 
     </Route>

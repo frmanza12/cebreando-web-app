@@ -6,7 +6,10 @@ import Carousel from 'react-bootstrap/Carousel';
 import Typography from '@mui/material/Typography';
 import parietal from '../../assets/ParietalLobe.png'
 import somatosensory from '../../assets/Somatosensory.png'
+import { useNavigate } from "react-router-dom";
 export default function Area2Detail() {
+  const navigate = useNavigate();
+
   return (
 
     <Carousel className='carousel-area1'
@@ -25,7 +28,7 @@ export default function Area2Detail() {
           />
           <CardContent className='card-area-content'>
             <Typography gutterBottom variant="h5" component="div">
-              PARIENTAL
+              PARIETAL
             </Typography>
             <Typography marginBottom={'5px'} v fontStyle={'italic'} variant="body2" color="text.secondary">
               ¿Nunca había oído esta palabra, a qué se refiere? Es un área cerebral situada seguida del lóbulo frontal y entre sus acciones están:
@@ -59,7 +62,9 @@ export default function Area2Detail() {
             </ul>
           </CardContent>
           <CardActions className='card-area-actions' >
-            <Button style={{ width: '80%' }} variant="contained" color="primaryAqua" size="small">Actividad</Button>
+            <Button
+            onClick={() => navigate('/activity/lobulo_parietal')} 
+            style={{ width: '80%' }} variant="contained" color="primaryAqua" size="small">Actividad</Button>
 
           </CardActions>
         </Card>
@@ -119,7 +124,9 @@ export default function Area2Detail() {
             </ul>
           </CardContent>
           <CardActions className='card-area-actions' >
-            <Button style={{ width: '80%' }} variant="contained" color="primaryAqua" size="small">Actividad</Button>
+            <Button 
+             onClick={() => navigate('/activity/corteza_somatosensorial')} 
+            style={{ width: '80%' }} variant="contained" color="primaryAqua" size="small">Actividad</Button>
 
           </CardActions>
         </Card>

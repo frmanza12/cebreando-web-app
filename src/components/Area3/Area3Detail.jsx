@@ -4,8 +4,11 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import visual from '../../assets/VisualLobe.png'
+import { useNavigate } from "react-router-dom";
 
 export default function Area3Detail() {
+  const navigate = useNavigate();
+
   return (
     <Card sx={{ borderLeft: '5px solid #d8be6a'}} className='card-area'>
       <img
@@ -41,7 +44,7 @@ export default function Area3Detail() {
         </ul>
       </CardContent>
       <CardActions  className='card-area-actions' >
-        <Button  style={{width:'80%'}} color="yellow" variant="contained" size="small">Actividad</Button>
+        <Button  onClick={() => navigate('/activity/lobulo_occipital')}  style={{width:'80%'}} color="yellow" variant="contained" size="small">Actividad</Button>
 
       </CardActions>
     </Card>

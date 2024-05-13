@@ -1,7 +1,5 @@
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import cerebelum from '../../assets/Cerebellum.png'
 
@@ -39,10 +37,7 @@ export default function Area5Detail() {
           </li>
         </ul>
       </CardContent>
-      <CardActions  className='card-area-actions' >
-        <Button  style={{width:'80%'}} color='red'  variant="contained" size="small">Actividad</Button>
-
-      </CardActions>
+     
     </Card>
   );
 }
