@@ -12,7 +12,6 @@ const Footer = () => {
             display:'flex',
             flexDirection:'row',
             justifyContent:'space-between',
-            backgroundColor:'red',
             alignItems:'center',
             alignSelf:'center',
             marginTop:'20px',
