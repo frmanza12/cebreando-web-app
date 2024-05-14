@@ -7,7 +7,9 @@ import logoLab from '../../assets/LogoLab.jpg'
 
 const Footer = () => {
   return (
-    
+    <footer
+       className='footer'
+    >
         <Grid  style={{
             display:'flex',
             flexDirection:'row',
@@ -23,7 +25,7 @@ const Footer = () => {
             </Grid>
             
         </Grid>
-    
+    </footer>
   );
 };
 
