@@ -15,16 +15,6 @@
 
 /*/align footer to the bottom of the page/*/
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
 
 a {
   font-weight: 500;
