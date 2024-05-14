@@ -97,9 +97,9 @@ const Brain = () => {
                         )
                     }
                 </Grid>
-
+                <Footer />
             </Grid>
-            <Footer />
+            
         </>
 
     );

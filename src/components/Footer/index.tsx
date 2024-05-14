@@ -8,7 +8,15 @@ import logoLab from '../../assets/LogoLab.jpg'
 const Footer = () => {
   return (
     <footer
-       className='footer'
+        style={{
+            display:'flex',
+            flexDirection:'column',
+            justifyContent:'center',
+            alignItems:'center',
+            alignSelf:'center',
+          
+            width:'100%',
+            }}
     >
         <Grid  style={{
             display:'flex',
