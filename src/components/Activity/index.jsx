@@ -9,6 +9,7 @@ const Activity = () => {
     const { id } = useParams();
 
     const [activityArray, setActivityArray] = useState(null);
+    const [formCheck, setFormCheck] = useState(false);
 
     useEffect(() => {
         const activity_ = ACTIVITIES.filter(activity => activity.id === id);
@@ -55,10 +56,20 @@ const Activity = () => {
                                     <CardActions
                                         style={{ justifyContent: 'space-between' }}
                                         disableSpacing>
-                                        <Button size="small">Formulario</Button>
+                                        <Button
+                                            onClick={() => {
+                                                setFormCheck(true)
+                                                window.open(activity.url, '_blank')
+                                            }}
+                                            size="small"
+                                        >Formulario</Button>
                                         <IconButton
+                                            disabled={!formCheck}
                                             aria-label="terminar"
-                                            style={{ color: 'green' }}
+                                            style={{
+                                                color: formCheck ? 'green' : 'grey',
+                                                opacity: formCheck ? 1 : 0.5
+                                            }}
                                             onClick={() => navigate('/', { state: { id: activity.part } })}
                                         >
                                             <CheckCircleOutlineIcon />
