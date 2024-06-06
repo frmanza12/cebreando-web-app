@@ -7,10 +7,12 @@ export const ACTIVITIES = [
         objective: 'Encontrar parejas de imágenes iguales.',
         description: 'Se mostrarán imágenes iguales por pares y se disponen boca abajo. Cada jugador ira levantando las imágenes por parejas. Si coincide la misma imagen ganara las imágenes, si no coinciden deberá voltearlas de nuevo y pasara el turno al próximo jugador.',
         materials: 'Juego de parejas de imágenes.',
-        color:'#9cd27d'
+        color:'#9cd27d',
+        url:'https://docs.google.com/forms/d/1abZXERsQ0-UTUr-9LV2VayqcrSmCuCJRzmvRKODX41g/edit?ts=6659b94f',
     },{
         id:'corteza_prefrontal',
         part:0,
+        url:'https://docs.google.com/forms/d/1Hy1XTBqJ-2HCoprYyLL3X3GDAxO-ysoAxOujMzDkaCc/edit?ts=6659b962',
         title:'Secuencia de imágenes',
         subheader:'Planificación',
         objective:'Ordenar la secuencia lógica de imágenes de acciones.',
@@ -21,6 +23,7 @@ export const ACTIVITIES = [
     {
         id:'cortex_cingulado_anterior',
         part:0,
+        url:'https://docs.google.com/forms/d/1Hy1XTBqJ-2HCoprYyLL3X3GDAxO-ysoAxOujMzDkaCc/edit?ts=6659b962',
         title:'Go-NoGo',
         subheader:'Inhibición',
         objective:'Nombrar el animal de la imagen o seguir la orden.',
@@ -31,6 +34,7 @@ export const ACTIVITIES = [
     {
         id: 'corteza_prefrontal',
         part:0,
+        url:'https://docs.google.com/forms/d/1Hy1XTBqJ-2HCoprYyLL3X3GDAxO-ysoAxOujMzDkaCc/edit?ts=6659b962',
         title: 'Laberinto',
         description: 'En una lámina el alumno encontrará un laberinto dibujado con múltiples salidas y deberá encontrar la salida correcta para conseguir llegar al final del mismo.',
         objective: 'Encontrar la salida del laberinto.',
@@ -41,6 +45,7 @@ export const ACTIVITIES = [
     {
         id: 'lobulo_parietal',
         part:1,
+        url:'https://docs.google.com/forms/d/1PSDOq-0k1EUo5s4aVfiwDZiMrMZ7t7gIvVdJaInC4Mc/edit?ts=6659b958',
         title: 'Tangram',
         subheader: 'Orientación espacial',
         objective: 'Encajar las piezas para formar la figura.',
@@ -51,6 +56,7 @@ export const ACTIVITIES = [
     {
         id: 'lobulo_parietal',
         part:1,
+        url:'https://docs.google.com/forms/d/1PSDOq-0k1EUo5s4aVfiwDZiMrMZ7t7gIvVdJaInC4Mc/edit?ts=6659b958',
         title: 'Puzzles 3D',
         subheader: 'Praxias',
         objective: 'Encajar las piezas del puzle en el lugar correcto para formar la figura.',
@@ -61,6 +67,7 @@ export const ACTIVITIES = [
     {
         id: 'lobulo_occipital',
         part:2,
+        url:'https://docs.google.com/forms/d/1jlRSvco9X67lButbxkQgHa9iTB2XNW6KoQ_n0U9H1OM/edit?ts=6659b944',
         title: 'Figura-fondo',
         subheader: 'Habilidades visuoespaciales',
         objective: 'Reconocer las imágenes',
@@ -71,11 +78,45 @@ export const ACTIVITIES = [
     {
         id: 'corteza_somatosensorial',
         part:1,
+        url:'https://docs.google.com/forms/d/1PSDOq-0k1EUo5s4aVfiwDZiMrMZ7t7gIvVdJaInC4Mc/edit?ts=6659b958',
         title: 'Figuras y formas',
         subheader: 'Gnosias',
         objective: 'Reconocer mediante el tacto.',
         description: 'Presentaremos una bolsa opaca con figuras de diferentes formas y el objetivo será reconocer las formas mediante tacto sin hacer uso de la visión.',
         materials: 'Bolsa con distintas figuras y formas básicas.',
         color:'#77d5d3'
+    },
+    {
+        id: 'cerebelo',
+        part:4,
+        title: 'Siéntete animal',
+        subheader: 'Atención',
+        objective: 'Control del movimiento voluntario.',
+        description: 'se irá diciendo animales y los jugadores tendrán que imitarlo con su cuerpo. Lo animales deben ser elegidos para mover la mayor parte del cuerpo, por ejemplo ranas, mono, perro, gallina, etc. ',
+        materials: '',
+        color:'#ad5151',
+        url:'https://docs.google.com/forms/d/1gjZk9Afy53RDPQkt8pkW1k_hpJExoHbqioFu2Bdpeo8/edit?ts=6659b93a&pli=1',
+    },
+    {
+        id: 'cerebelo',
+        part:4,
+        title: '¿Recuerdas que animal eras?',
+        subheader: 'Memoria',
+        objective: 'Ejercitar la memoria',
+        description: 'Esta actividad está vinculada a la anterior, ya que el alumno debe recordar en qué orden ha ido haciendo los animales porque se le irá preguntando',
+        materials: '',
+        color:'#ad5151',
+        url:'https://docs.google.com/forms/d/1gjZk9Afy53RDPQkt8pkW1k_hpJExoHbqioFu2Bdpeo8/edit?ts=6659b93a&pli=1',
+    },
+    {
+        id: 'cerebelo',
+        part:4,
+        title: 'Movimiento a palabra',
+        subheader: 'Memoria y atención',
+        objective: 'Asociar cada palabra a un movimiento.',
+        description: 'Se asociará cada palabra a un movimiento. Los jugadores tendrán que memorizarlo y cada vez que se diga una palabra el jugador deberá hacer el movimiento. Cada vez se irán diciendo las palabras más rápidas, por lo tanto, los movimientos también lo serán.',
+        materials: '',
+        color:'#ad5151',
+        url:'https://docs.google.com/forms/d/1gjZk9Afy53RDPQkt8pkW1k_hpJExoHbqioFu2Bdpeo8/edit?ts=6659b93a&pli=1',
     }
 ]
