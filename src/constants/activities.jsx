@@ -17,7 +17,7 @@ export const ACTIVITIES = [
         subheader:'Planificación',
         objective:'Ordenar la secuencia lógica de imágenes de acciones.',
         description:'Se mostrarán imágenes de secuencias de acciones y el jugador deberá ordenarlas acciones según la secuencia lógica.',
-        materials:'Laminas de secuencia de acciones.',
+        materials:'Láminas de secuencia de acciones.',
         color:'#99b5df'
     },
     {
@@ -39,7 +39,7 @@ export const ACTIVITIES = [
         description: 'En una lámina el alumno encontrará un laberinto dibujado con múltiples salidas y deberá encontrar la salida correcta para conseguir llegar al final del mismo.',
         objective: 'Encontrar la salida del laberinto.',
         subheader: 'Flexibilidad cognitiva',
-        materials: 'lamina de laberinto.',
+        materials: 'lámina de laberinto.',
         color:'#99b5df'
     },
     {
@@ -49,7 +49,7 @@ export const ACTIVITIES = [
         title: 'Tangram',
         subheader: 'Orientación espacial',
         objective: 'Encajar las piezas para formar la figura.',
-        description: 'Disponemos de distintas piezas y laminas de figuras. Debemos encajar las piezas hasta conseguir formar las piezas de lámina.',
+        description: 'Disponemos de distintas piezas y láminas de figuras. Debemos encajar las piezas hasta conseguir formar las piezas de lámina.',
         materials: 'Juego Tangram con piezas y láminas de figuras.',
         color:'#77d5d3'
     },
@@ -59,7 +59,7 @@ export const ACTIVITIES = [
         url:'https://docs.google.com/forms/d/1PSDOq-0k1EUo5s4aVfiwDZiMrMZ7t7gIvVdJaInC4Mc/edit?ts=6659b958',
         title: 'Puzzles 3D',
         subheader: 'Praxias',
-        objective: 'Encajar las piezas del puzle en el lugar correcto para formar la figura.',
+        objective: 'Encajar las piezas del puzzle en el lugar correcto para formar la figura.',
         description: 'Dispondremos de piezas 3D y deberemos colocarlas en la posición correcta para conseguir la figura.',
         materials: 'puzzle 3D',
         color:'#77d5d3'
@@ -71,8 +71,8 @@ export const ACTIVITIES = [
         title: 'Figura-fondo',
         subheader: 'Habilidades visuoespaciales',
         objective: 'Reconocer las imágenes',
-        description: 'Presentaremos una lamina con figuras de imágenes superpuestas y con un rotulador repasaremos las líneas de cada imagen.',
-        materials: 'Rotulador y lamina de imágenes superpuestas.',
+        description: 'Presentaremos una lámina con figuras de imágenes superpuestas y con un rotulador repasaremos las líneas de cada imagen.',
+        materials: 'Rotulador y lámina de imágenes superpuestas.',
         color:'#d8be6a'
     },
     {
@@ -92,7 +92,7 @@ export const ACTIVITIES = [
         title: 'Siéntete animal',
         subheader: 'Atención',
         objective: 'Control del movimiento voluntario.',
-        description: 'se irá diciendo animales y los jugadores tendrán que imitarlo con su cuerpo. Lo animales deben ser elegidos para mover la mayor parte del cuerpo, por ejemplo ranas, mono, perro, gallina, etc. ',
+        description: 'Se irá diciendo animales y los jugadores tendrán que imitarlo con su cuerpo. Lo animales deben ser elegidos para mover la mayor parte del cuerpo, por ejemplo ranas, mono, perro, gallina, etc. ',
         materials: '',
         color:'#ad5151',
         url:'https://docs.google.com/forms/d/1gjZk9Afy53RDPQkt8pkW1k_hpJExoHbqioFu2Bdpeo8/edit?ts=6659b93a&pli=1',
@@ -103,7 +103,7 @@ export const ACTIVITIES = [
         title: '¿Recuerdas que animal eras?',
         subheader: 'Memoria',
         objective: 'Ejercitar la memoria',
-        description: 'Esta actividad está vinculada a la anterior, ya que el alumno debe recordar en qué orden ha ido haciendo los animales porque se le irá preguntando',
+        description: 'Esta actividad está vinculada a la anterior, ya que el alumno debe recordar en qué orden ha ido haciendo los animales porque se le irá preguntando.',
         materials: '',
         color:'#ad5151',
         url:'https://docs.google.com/forms/d/1gjZk9Afy53RDPQkt8pkW1k_hpJExoHbqioFu2Bdpeo8/edit?ts=6659b93a&pli=1',
